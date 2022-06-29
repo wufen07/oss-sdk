@@ -1,0 +1,25 @@
+{
+    "name": "wufen07/oss-sdk",
+    "description": "SendMessage",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wufen07\\OssSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "吴芬",
+            "email": "2517845324@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "qcloud/cos-sdk-v5": ">=2.0",
+        "aliyuncs/oss-sdk-php": "^2.4.0",
+        "phpunit/phpunit": "^5.0|^6.0",
+        "qiniu/php-sdk": "^7.3"
+
+    }
+}
