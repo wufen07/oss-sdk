@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Wufen07\OssSdk\oss;
+namespace Oss\Library;
 
 
 class Manger
